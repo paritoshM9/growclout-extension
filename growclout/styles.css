@@ -1,0 +1,545 @@
+/*
+  vw - 971
+  vh - 1680
+*/
+
+#analytics_tab {
+  margin-right: 2%;
+}
+
+/* Stats */
+
+#embed {
+  position: fixed;
+  clear: both;
+  width: 35%;
+  min-height: 45vh;
+  /* height: 47%; */
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+  color: #335500;
+  background-color: #fff;
+  z-index: 999999;
+  right: -700px;
+  top: 200px;
+  font-family: Roboto Mono,Open Sans, Segoe UI, San Francisco, Arial, Helvetica, Sans Serif;
+
+}
+
+#container {
+  width: 100%;
+  /* height: 80%; */
+  height: 38vh;
+}
+
+#site {
+  width: 100%;
+  height: 90%;
+  border: none;
+  font-family: Roboto Mono;
+
+}
+
+/* Stats Footer */
+
+hr, #hr {
+  text-align: center;
+  background-color: gray;
+  /* margin-top: 2px;
+  margin-bottom: 2px;
+  margin: 2px; */
+  margin: 0;
+  /* margin-bottom: 1%; */
+  /* height: 3px; */
+
+}
+
+#footer {
+  display: flex;
+  /* background-color: #536162; */
+  /* background-color: #CFD8DC; */
+  background-color: white;
+
+  /* color: #fff; */
+  color: black;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  /* font-size: 15px; */
+  font-size: 0.8vw;
+  /* padding: auto; */
+  align-items: center;
+}
+
+.flex-items {
+  /* height: auto; */
+  width: 37%;
+  /* padding: 10px; */
+  /* padding: auto; */
+  text-align: center;
+  align-content: center;
+  border-right: solid 2px #DDDDDD;
+  /* margin-bottom: 20px; */
+}
+
+#preloader_gif {
+  width: 15vh;
+  height: 15vh;
+  margin: auto;
+  margin-top: 11.5vh;
+
+}
+#share {
+
+  background-color: #3b5998;
+  width: 26%;
+  /* color: #3b5998; */
+  color:white;
+  height: auto;
+  /* height: 100%; */
+  margin:auto;
+  /* border-radius: 5px; */
+  border: none;
+  margin: 0;
+  padding-top: 2.4vh;
+  padding-bottom: 2.4vh;
+  /* background-color: inherit; */
+  font-weight:bold;
+  /* padding: 10px; */
+  padding: auto;
+
+}
+#growth, #average {
+  padding: 1.2vh;
+
+}
+/* Stats Header */
+#header {
+
+  background-color: #3b5998;
+  color: white;
+  font-family: Open Sans, Segoe UI, San Francisco, Arial, Helvetica, Sans Serif;
+  font-size: 0.9vw;
+  cursor: pointer !important;
+  height: 2vw;
+  padding: auto;
+  margin: auto;
+  width: 70%;
+  display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+
+}
+
+
+#header_main {
+  /* background-color: #536162 !important; */
+  /* background-color: #CFD8DC; */
+  background-color: #3b5998;
+  color: white !important;
+  /* font-family: Verdana !important; */
+  font-family: Roboto Mono,Open Sans, Segoe UI, San Francisco, Arial, Helvetica, Sans Serif;
+
+  /* font-size: 10pt !important; */
+  font-size: 0.9vw;
+  cursor: pointer !important;
+  height: 8% !important;
+  padding: 0px;
+  /* padding: 5%; */
+  margin: auto;
+  display: flex;
+  /* padding-bottom: 1%; */
+}
+
+#close_img {
+  /* width: 18px;
+  height: 18px; */
+  width: 0.9vw;
+  height: 0.9vw;
+  margin: auto;
+  color: white;
+
+  margin-right: 1.5%;
+}
+
+#close_img_login {
+  /* width: 18px;
+  height: 18px; */
+  width: 0.9vw;
+  height: 0.9vw;
+  color: white;
+
+}
+
+#signout {
+  width: 15%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5%;
+  text-align: center;
+  /* background-color: #536162; */
+  /* background-color: #CFD8DC; */
+  background-color: inherit;
+  color: white;
+  border: none;
+
+}
+
+/*
+#close_img:hover {
+  width: 20px;
+  height: 20px;
+} */
+
+/* Tab */
+#tab {
+  /* background-image:  */
+  /* background-color: #005bff; */
+  background-color: #3b5998;
+
+  clear: both;
+  color: white;
+  cursor: pointer;
+  font-family: Roboto Mono, Open Sans, Segoe UI, San Francisco, Arial, Helvetica, Sans Serif;
+  /* font-size: 8pt; */
+  font-size: 0.6vw;
+  font-weight: bold;
+  border: 1px 1px 0 1px solid black;
+  box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  position: fixed;
+  right: 0;
+  text-align: center;
+
+  /* top: 30%; */
+  top: 27%;
+  /* width: 65px !important; */
+  width: 4%;
+  /* height: 395px !important; */
+  /* height: 43%; */
+  z-index: 100;
+  opacity: 0.9;
+
+}
+
+#tab:hover {
+  /* width: 4%; */
+
+  /* opacity: 0.90; */
+  /* opacity: 1; */
+
+}
+#sec1:hover, #sec2:hover, #sec3:hover {
+  /* background-color: #3D84B8; */
+  /* background-color: #3b5998; */
+  background-color: #1778F2;
+  opacity: 0.90;
+}
+
+/* #sec3 {
+  height: 28%;
+} */
+
+#sec4 {
+  opacity: 0.80;
+  box-shadow: 0 0 4px rgba(0,0,0,0.6);
+  /* padding-top: 2vh;
+  padding-bottom: 1.5vh; */
+  height: auto;
+
+}
+/* #update {
+  color: yellow;
+  margin-left: 10px;
+  font-weight: bold;
+} */
+#title {
+  width: 100%;
+}
+
+#sec1, #sec2, #sec3{
+  /* height: 28%; */
+  /* height: 11vh; */
+  height:auto;
+  width: auto;
+  margin: auto;
+  margin-top: auto;
+  /* padding-top: 25px; */
+  /* padding: auto; */
+  /* padding-top: 33%; */
+  padding-top: 2vh;
+  padding-bottom: 1.5vh;
+  box-shadow: 0 0 2px rgba(0,0,0,0.6);
+
+}
+#sec1_title, #sec2_title, #sec3_title {
+  margin: auto;
+  /* padding-right: 10px; */
+  text-align: center;
+  width: auto;
+  font-weight: bold;
+  font-family: Roboto Mono, Open Sans, Segoe UI, San Francisco, Arial, Helvetica, Sans Serif;
+  font-size: 0.6vw;
+}
+
+#icon_followers, #icon_cp, #icon_mc {
+  /* width: 50%;
+  height: 40%; */
+  height: 3vh;
+  width: 3vh;
+  text-align: center;
+  /* padding: 10px; */
+  /* margin-top: 10px; */
+
+}
+#logo_icon {
+  /* height: 100%;
+  width: 100%; */
+  height: 4vw;
+  width: 4vw;
+  box-shadow: 0 0 4px rgba(0,0,0,0.6);
+
+}
+
+
+/* Register Form */
+
+#login {
+  position: fixed;
+  clear: both;
+  /* width: 400px;
+  height: 435px; */
+  width: 23%;
+  /* height: 43%; */
+  /* overflow: auto; */
+  background: #FFFFFF;
+  box-shadow: 0 0 5px rgba(0,0,0,1);
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #335500;
+  /* background-color: yellow; */
+  z-index: 999999;
+  right: -700px;
+  /* top: 300px; */
+  top: 27%;
+  font-family: Roboto Mono,Open Sans, Segoe UI, San Francisco, Arial, Helvetica, Sans Serif;
+
+}
+
+#header_login {
+
+  background-color: #3b5998;
+  color: white;
+  font-family: Open Sans, Segoe UI, San Francisco, Arial, Helvetica, Sans Serif;
+
+  font-size: 10pt !important;
+  cursor: pointer !important;
+  /* height: 40px !important; */
+  height: 4%;
+  /* padding: 10px; */
+  padding:1%;
+  /* margin: auto; */
+  width: 100%;
+  margin-right: 0;
+  padding-left: 90%;
+}
+
+#login_site {
+  width: auto;
+  height: auto;
+  text-align: center;
+  background: #FFFFFF;
+  font-family: Roboto Mono,Open Sans, Segoe UI, San Francisco, Arial, Helvetica, Sans Serif;
+
+  /* background-color: pink; */
+  margin: auto;
+  /* padding: 8% 0 0; */
+}
+/*
+#form_div {
+  background-color: yellow;
+} */
+
+#myForm {
+  /* background-color: blue; */
+  /* padding: 20px; */
+  padding: 2.5vh;
+  /* color:#005bff; */
+  color: black;
+  align-content: center;
+  /* margin:auto; */
+  background: #FFFFFF;
+  max-width: 100%;
+  margin: 0 auto 0;
+  text-align: left;
+  /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+  box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.2), 0 0.5vh 0.5vh 0 rgba(0, 0, 0, 0.24);
+  height: 100%;
+}
+
+input, p {
+    display: flex;
+    justify-content: flex-start;
+    /* margin: 20px 30px 20px 30px; */
+    /* padding: 10px 10px 10px 10px; */
+    margin: 1.19vw 1.78vw 1.19vw 1.78vw;
+    padding: 0.59vw;
+    /* font-size: 1.5vh; */
+    font-size: 1.6vh;
+}
+
+#user {
+  color: #3b5998;
+  font-size: 1.5vh;
+
+}
+
+.label {
+  color: red;
+  align-content: flex-start;
+}
+
+#yes, #no, #public_access_no, #public_access_yes {
+  display: inline-block;
+  text-align: left;
+}
+
+#publicaccess {
+  /* margin-top: 10px; */
+  margin-top: 0.8vw;
+}
+
+#publicaccess_sub {
+  margin-top: 0;
+}
+#yes {
+  /* margin-left: 10px; */
+}
+
+#no {
+  margin-left: 10%;
+}
+
+#form_heading {
+  /* font-family: fantasy; */
+  font-family: Roboto sans-serif;
+  justify-content: flex-start;
+  text-align: center;
+  /* margin-top: 10px; */
+  /* font-size: 1.3rem; */
+  /* font-size: 2.5vh; */
+  font-size: 2.7vh;
+  color: #3b5998;
+  margin-bottom: 3%;
+}
+#form_subheading {
+  justify-content: flex-start;
+  /* margin-bottom: 15px; */
+  margin-bottom: 5%;
+  /* font-size: 1rem; */
+  /* font-size: 1.6vh; */
+  font-size: 1.8vh;
+  text-align: center;
+
+  color: #3b5998;
+}
+
+
+
+#publicaccess_sub {
+  color: gray;
+  /* font-size: 0.7rem; */
+  text-align: left;
+}
+
+.sameline {
+  width: auto;
+  text-align: left;
+  /* margin-right: 20px; */
+  margin-right: 1.19vw;
+}
+
+#submit {
+  /* width: 120px; */
+  width: 30%;
+  /* width: auto; */
+  /* background-color: #005BFF; */
+  /* background-color: #1778F2; */
+  background-color: #3b5998;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  /* font-size: 1.5vh; */
+  font-size: 1.6vh;
+  /* margin-left: 36% */
+  /* padding: 1%; */
+  margin:auto;
+}
+
+#enable_access {
+  /* width:auto; */
+  height: auto;
+  text-align: center;
+  /* padding: 10px; */
+  padding: 2%;
+  background-color: #3b5998;
+  color: white;
+  font-size: 1.5vh;
+  margin-top: 1.5vh;
+  /* width: 30%; */
+}
+
+#registered_container {
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+  justify-content: center;
+  /* margin-top: 5%; */
+
+}
+
+#registered_image {
+  height: 65%;
+  width: 65%;
+  /* margin:auto; */
+  margin-left: 18%;
+}
+
+#centered-text {
+  justify-content: center;
+  /* margin-top: 2%; */
+  /* font-size: 20px; */
+  color: #3b5998;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+/* Exceptions */
+
+#exception_container {
+  text-align: center;
+  color: black;
+  height: auto;
+  width: auto;
+  /* padding:30px; */
+  padding: 2vw;
+  align-items: center;
+  align-content: center;
+
+}
+#exception_image {
+  height: 25vh;
+  width: 25vh;
+}
+
+#exception_stats, #exception_access, #exception_profile {
+  justify-content: center;
+  /* margin-top: 30px;
+  font-size: 16px; */
+  font-size: 1.5vh;
+  margin-top: 2.8vh;
+}
