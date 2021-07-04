@@ -1,14 +1,16 @@
 ## GrowClout 
 #### Quick and Easy Analytics Tool for BitClout Creators
 
-Download for Chrome - bit.ly/growclout
+Download for Chrome - https://chrome.google.com/webstore/detail/growclout/igjbanombehknhemjheneooeifeanncd
 
 
 GrowClout is a chrome extension to get creators' insights seamlessly on Bitclout.
 GrowClout enables users to: 
 
 🚀 Analyse historical data of coin price, followers trend and market capital of BitClout users and make informed investing decisions.
+
 🚀 See the growth %, average value and other insights of the creator's profile, and buy creators coins at best prices. 
+
 🚀 Use our quantitive insights to track their own growth and learn about what is working for them and what not, to grow faster. 
 
 Also.......
