@@ -1,0 +1,29 @@
+name: Chrome extension
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+  
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Zip
+        run: |
+          zip -r ./extension.zip growclout/
+      - name: Deploy to chrome store
+        uses: Passiverecords/chrome-extension-upload-action@1.4.1
+        with:
+            refresh-token: ${{ secrets.REFRESH_TOKEN }}
+            client-id: ${{ secrets.CLIENT_ID }}
+            client-secret: ${{ secrets.CLIENT_SECRET }}
+            app-id: ${{ secrets.APP_ID }}
+            file-name: './extension.zip'
+            publish: true
